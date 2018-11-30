@@ -1,0 +1,164 @@
+/* DOCUMENT STYLES */
+body {
+  font-family: 'Source Serif Pro', serif;
+  color: #363c3c;
+}
+
+a {
+  color: #363c3c;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20%;
+}
+
+button {
+  border-color: #363c3c;
+  border-radius: 5px;
+  color: #363c3c;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* SEARCH BAR COMPONENT STYLES */
+
+.search-bar {
+  background: #363c3c;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.search-input {
+  border-radius: 5px;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 15px;
+  height: 30px;
+  margin: 5px 15px 5px 0;
+  padding: 5px 15px;
+  width: 200px;
+}
+
+/* COLOR LIST COMPONENT STYLES */
+
+.color-link {
+  color: #000;
+  display: block;
+  margin: 10px 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.color-list {
+  background: #d6d8d8;
+  height: 100%;
+  position: absolute;
+  width: 20%;
+}
+
+.random-color-btn {
+  margin: 45px 0 25px 25px;
+  width: 80%;
+}
+
+/* COLOR SWATCH ITEM COMPONENT STYLES */
+
+.color-swatch-item {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 210px;
+}
+
+.color-block {
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  width: 210px;
+}
+
+.color-name {
+  font-size: 20px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+/* COLOR SWATCH LIST COMPONENT STYLES */
+
+.color-swatch-list {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  width: 75%;
+}
+
+.page-numbers {
+  cursor: pointer;
+  justify-content: center;
+}
+
+.page-numbers li {
+  margin-left: 8px;
+}
+
+.loading-sign {
+  margin-left: 50%;
+}
+
+/* COLOR DETAIL VIEW COMPONENT STYLES */
+
+.color-detail-view {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 70%;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+.color-detail-view .color-name {
+  padding-bottom: 4px;
+}
+
+.color-block-detail {
+  border-radius: 10px 10px 0 0;
+  height: 350px;
+  width: 100%;
+}
+
+/* COLOR DETAIL TINT COMPONENT STYLES */
+
+.color-detail-tint {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 160px;
+}
+
+.color-tints {
+  margin-left: 25%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color-block-tint {
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+}
+
+.clear-btn {
+  margin: 35px 50%;
+  width: 20%;
+}
